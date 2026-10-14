@@ -36,3 +36,7 @@ Aplikasi menggunakan `EcoPowerApp` sebagai widget utama dan `EcoPowerDashboard` 
 ## Status Proyek
 
 Proyek ini dikembangkan sebagai tugas pembelajaran Flutter dengan fokus pada implementasi gesture interaktif dan pengelolaan state.
+
+## Deploy ke GitHub Pages
+
+Workflow GitHub Actions akan membangun versi web Flutter dan menerbitkannya ke GitHub Pages setiap ada push ke branch `main`. Pastikan pengaturan **Settings > Pages > Build and deployment > Source** pada repository menggunakan **GitHub Actions**. Setelah workflow berhasil, buka URL yang ditampilkan pada deployment `github-pages` di tab Actions.
